@@ -15,8 +15,8 @@ First Step: Install and Configure Jenkins Server.
      ![install jdk](./images/install-jdk.png)
 
 3. Install Jenkins.
-   - Run `wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -`
-   - Run `sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
+   - Run `wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+   sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
     /etc/apt/sources.list.d/jenkins.list'`
    - Run `sudo apt update`
    - Run `sudo apt-get install jenkins -y` 
